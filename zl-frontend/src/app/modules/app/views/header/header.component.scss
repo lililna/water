@@ -1,0 +1,33 @@
+/*大标题样式*/
+.the-page-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 10px 30px;
+  width: 100%;
+  height: 70px;
+  background-color: #FFFFFF;
+  /*左侧标题名样式*/
+  .the-left{
+    display: flex;
+    align-items: center;
+    .head-logo{
+      width: 26px;
+      height: 26px;
+      background-color: blue;
+      border-radius: 50%;
+    }
+    h3{
+      font-weight: bold;
+      margin: 3px 0 0 12px;
+    }
+  }
+  /*右侧登录用户信息*/
+  .the-right-user{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+}

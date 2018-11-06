@@ -1,0 +1,23 @@
+
+<!--大布局模板图-->
+<div class="the-page-box row">
+  <!--&lt;!&ndash;头&ndash;&gt;-->
+  <app-header></app-header>
+  <!--&lt;!&ndash;主要内容&ndash;&gt;-->
+  <div class="the-page-content">
+    <!--左树-->
+    <div class="left-tree">
+      <app-left-tree></app-left-tree>
+    </div>
+    <!--右侧内容-->
+    <div class="the-right-content">
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="footer">
+        <app-footer></app-footer>
+      </div>
+    </div>
+  </div>
+
+</div>

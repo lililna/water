@@ -1,0 +1,41 @@
+// 网页大体布局
+.the-page-box {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  background-color: #f5f5f5;
+  /*主要内容*/
+  .the-page-content{
+    flex: 1;
+    display: flex;
+    min-height: 80vh;
+    margin-top: 5px;
+    /*左树*/
+    .left-tree{
+      width: 12%;
+      padding: 20px;
+      background-color: #FFFFFF;
+    }
+    /*右侧内容样式*/
+    .the-right-content{
+      width: 88%;
+      display: flex;
+      flex-direction: column;
+      .content{
+        flex: 1;
+        margin: 20px;
+        background-color: #FFFFFF;
+      }
+      .footer{
+        width: 100%;
+        height: 32px;
+        background-color: rgb(204,215,221);
+      }
+    }
+  }
+
+}
+
+

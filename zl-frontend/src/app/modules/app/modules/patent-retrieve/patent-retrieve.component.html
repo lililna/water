@@ -1,0 +1,14 @@
+<!--专利检索头部-->
+<ul class="patent-retrieve-head">
+  <li><a [routerLink]="['/app/patent-retrieve/patent-activity']" >专利活动</a></li>
+  <span></span>
+  <li><a [routerLink]="['/app/patent-retrieve/history-activity']">历史活动查询</a></li>
+  <span></span>
+  <li><a [routerLink]="['/app/patent-retrieve/activity-configuration']">活动配置</a></li>
+  <span></span>
+  <li><a [routerLink]="['/app/patent-retrieve/activity-rules']">专利活动规则</a></li>
+</ul>
+<!--专利检索内容-->
+<div class="patent-retrieve-content">
+  <router-outlet></router-outlet>
+</div>

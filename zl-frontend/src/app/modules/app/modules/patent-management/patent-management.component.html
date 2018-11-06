@@ -1,0 +1,11 @@
+<!--头部导航-->
+<ul class="patent-management-head">
+  <li><a [routerLink]="['/app/patent-management/patent']"  routerLinkActive="active">专利管理</a></li>
+  <span></span>
+  <li><a [routerLink]="['/app/patent-management/remind']"  routerLinkActive="active">提醒管理</a></li>
+</ul>
+<!--管理内容-->
+<div class="patent-management-content">
+  <router-outlet></router-outlet>
+</div>
+

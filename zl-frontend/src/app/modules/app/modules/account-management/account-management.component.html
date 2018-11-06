@@ -1,0 +1,11 @@
+ <!--账号管理头部-->
+<ul class="account-head">
+  <li><a [routerLink]="['/app/account-management/user']">用户管理</a></li>
+  <li><a [routerLink]="['/app/account-management/role']">角色管理</a></li>
+  <li><a [routerLink]="['/app/account-management/agency']">代理机构管理</a></li>
+  <li><a [routerLink]="['/app/account-management/organization-list']">组织列表</a></li>
+</ul>
+ <!--账号管理内容-->
+ <div class="account-content">
+   <router-outlet></router-outlet>
+ </div>

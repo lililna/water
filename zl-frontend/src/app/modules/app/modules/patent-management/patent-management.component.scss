@@ -1,0 +1,20 @@
+/*专利管理顶部导航*/
+.patent-management-head{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  span{
+    display: block;
+    height: 16px;
+    width: 2px;
+    background-color: rgb(160,174,181);
+    margin: 0 10px;
+  }
+}
+/*专利管理内容*/
+.patent-management-content{
+  width: 80%;
+  background-color: #cccccc;
+  height: 300px;
+  margin: 2% 10%;
+}
